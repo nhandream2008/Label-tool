@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "name": "tests",
+  "classes": [
+    {
+      "name": "nguoi",
+      "color": "#ff3b30"
+    }
+  ]
+}

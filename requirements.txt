@@ -1,0 +1,15 @@
+# Giao diện và gán nhãn (bắt buộc)
+PySide6-Essentials>=6.6
+pillow>=10.0
+pyyaml>=6.0
+
+# Huấn luyện YOLO (cần cho thẻ "Huấn luyện")
+# ultralytics tự cài kèm torch bản CPU. Muốn huấn luyện bằng GPU NVIDIA, sau khi cài xong
+# hãy cài lại torch bản CUDA theo lệnh trên https://pytorch.org/get-started/locally/ , ví dụ:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128 --force-reinstall
+ultralytics>=8.3
+
+# Xuất best.pt sang ONNX (dùng cho web app)
+onnx>=1.12,<2.0
+onnxslim>=0.1.82
+onnxruntime
